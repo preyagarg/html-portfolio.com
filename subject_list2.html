@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  
+  <title>First Year Subjects | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fcf8f4;
+      color: #3b2f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #6e4c3b;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    header h2 {
+      color: #fff4e6;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #ffe6cc;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc99;
+    }
+
+    .intro {
+      background-color: #f5e4d9;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .intro h1 {
+      font-size: 48px;
+      color: #4d3b2f;
+      margin-bottom: 15px;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #5e4739;
+    }
+
+    .subjects {
+      padding: 60px 40px;
+      background-color: #e9d6c8;
+    }
+
+    .subjects h2 {
+      text-align: center;
+      font-size: 36px;
+      color: #4b3621;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #d1b6a1;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card a {
+      display: block;
+      padding: 15px;
+      background-color: #f7ebe1;
+      text-align: center;
+      color: #3b2f2f;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #e2c8b4;
+    }
+
+    
+    @media (max-width: 768px) {
+      .intro h1 {
+        font-size: 36px;
+      }
+
+      .subjects h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>My First Year</h2>
+    <nav>
+      <a href="#subjects">Subjects</a>
+      
+    </nav>
+  </header>
+
+  <div class="intro">
+    <h1>Welcome to My First Year!</h1>
+    <p>Explore the subjects that shaped my first year at Thapar University.</p>
+  </div>
+
+  <section class="subjects" id="subjects">
+    <h2>Subjects Overview</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://imgs.search.brave.com/7JU8eii0AyDc0tX4e-6mpsMsIB1MtX11OXnNJMZlWts/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg2/NjEyMTMzNS9waG90/by9waHlzaWNzLWFu/ZC1tYXRoZW1hdGlj/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9T1pteUZBaHJZ/Z3YtNjFFM1VCamlp/N1I1ckxxcDVjTmRv/a1hTdW9UQ3BpWT0" alt="Physics">
+        <a href="https://myherupa.com/pages/subjects/first-year/phy.html" target="_blank">PHYSICS</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/xVuTOC0BKmkgIcDOUvs8cyrU9aanHpHGMd14OcrevqU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE2/MzY3NzY1MS9waG90/by9kaWZmZXJlbnRp/YXRpb24tc29sdmlu/Zy1wcm9ibGVtLWVx/dWF0aW9ucy1vdXRs/aW5lcy1vbi13aGl0/ZS1wYXBlci1tYXRo/ZW1hdGljcy1ub3Rh/dGlvbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9cVloamxN/dmQyN0pNOEdCWUlY/eEEwQXBSd3E1TlZH/ZVJ5MnM1Y3loNUct/dz0" alt="Maths 2">
+        <a href="https://myherupa.com/pages/subjects/first-year/maths2.html" target="_blank">MATHEMATICS-2</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/EZcRqDvJ904DY41La2ce2JcxOSDlStsWjJ_tBJI-FV8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFiLzYw/LzM0LzFiNjAzNDNl/NDZlM2ZkMDM1MjY5/NDU4YjVlNDQyNjlm/LmpwZw" alt="Communication">
+        <a href="https://myherupa.com/pages/subjects/first-year/com.html" target="_blank">PROF. COMMUNICATION</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/6H3Nd3Rsr2G5NcQl3YPfVft-h6ZWbcmNNfQ0UhLdzgs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQy/MzE2OTA3Mi9waG90/by9ibHVlLXByaW50/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9aXhsNThYMG04/MDZhcFotYzJYVmtG/RXpqa1FFNS02aFRK/di1tS0JTSzJ4dz0" alt="Drawing">
+        <a href="https://myherupa.com/pages/subjects/first-year/draw1.html" target="_blank">ENGINEERING DRAWING</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/M0bYUs5aPF5EfLLbk6YxGuc_bkSmqFgL8juSXWyigww/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/Mjk5NjU2Ni9waG90/by9zcGFya3MtZmx5/LW91dC1tYWNoaW5l/LWhlYWQtZm9yLW1l/dGFsLXByb2Nlc3Np/bmcuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPUk2Qjk3Q0Vl/dGszMGhCTmJ6dzlY/dDc0cmUxdXdBNGpQ/bDlIdHAxOVpIenc9" alt="Manufacturing">
+        <a href="https://myherupa.com/pages/subjects/second-year/common/manufacture.html" target="_blank">MANUFACTURING PROCESSES</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/j7ocjuyYkBa0Y04x4pntuj9TjwPBUCudlwRH-GePKuY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjcv/MTQ2LzY5My9zbWFs/bC9hZnJpY2FuLWFt/ZXJpY2FuLWZlbWFs/ZS1jaGVtaXN0LXBv/dXJpbmctbGlxdWlk/LWxpbmUtMmQtY2hh/cmFjdGVyLWFuaW1h/dGlvbi1leHBlcmlt/ZW50LXNjaWVuY2Ut/ZmxhdC1jb2xvci1j/YXJ0b29uLTRrLWFs/cGhhLWNoYW5uZWwt/ZXllZ2xhc3Nlcy1i/bGFjay1naXJsLWFu/aW1hdGVkLXBlcnNv/bi1vbi13aGl0ZS1i/YWNrZ3JvdW5kLXZp/ZGVvLmpwZw" alt="Chemistry">
+        <a href="https://myherupa.com/pages/subjects/first-year/chem.html" target="_blank">CHEMISTRY</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/C8Fusd_vVdl4HObPWZEAaPm_J_EZrtjyF-imhx6H2Vk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjU3/Mjc0MTI0L3Bob3Rv/L21hdGgtY29uY2Vw/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9M3kzTHlpSjRm/QVV5MlpUMkc4T3ZE/VGR3MzE3ajJsNTVu/ZldRMnhSQjZ3VT0" alt="Maths 1">
+        <a href="https://myherupa.com/pages/subjects/first-year/maths1.html" target="_blank">MATHEMATICS-1</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/L-X2HxuR2SQMCGObdE4RMl8Lc7rDwzE6yW1YBPt9xfM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQz/ODkzMTYwNi9waG90/by93b21hbnMtaGFu/ZC13aXRoLWEtdHJl/ZS1zaGUtaXMtcGxh/bnRpbmctZW52aXJv/bm1lbnRhbC1jb25z/ZXJ2YXRpb24tY29u/Y2VwdC1wcm90ZWN0/LWFuZC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9d3lhZDl5/c05XWjMxYlBJWHNp/MGFYQjBDOUQxYU1C/NV9MbXhSN0dXYXEx/cz0" alt="Environment">
+        <a href="https://myherupa.com/pages/subjects/first-year/env.html" target="_blank">ENERGY & ENVIRONMENT</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/vNT51EDcBWVJxXrfgHP46FHoNESBbEZx70jeAOol8K8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/MDIyMDU1MC9waG90/by9hdXRvbWF0aWMt/cGljay1hbmQtcGxh/Y2UtbWFjaGluZS1x/dWlja2x5LWluc3Rh/bGxzLWNvbXBvbmVu/dHMtb24tZ2VuZXJp/Yy1jaXJjdWl0LWJv/YXJkLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1tcXZkWTJF/TGoybXh0Z2ZONWN3/RWg4SWhnblpZWFpH/VkE2WUdLdThVcDBV/PQ" alt="EEE">
+        <a href="https://myherupa.com/pages/subjects/first-year/electrielectro.html" target="_blank">ELECTRICAL & ELECTRONICS</a>
+      </div>
+
+      <div class="card">
+        <img src="https://imgs.search.brave.com/HyjRDT25f-V7WIf4h_Pwv_NHVpi59GjrO6NflZuXkrM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDY3/NjYyNDI5L3Bob3Rv/L2J1YmJsZS1zb3J0/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1Rbjkycm5EM1Qt/NDY2TmUyVTg0RWY1/TmhCZElQck12TTNp/ZkNOY0dSUmZJPQ" alt="C Programming">
+        <a href="https://myherupa.com/pages/subjects/first-year/cs1.html" target="_blank">C PROGRAMMING</a>
+      </div>
+    </div>
+  </section>
+
+ 
+</body>
+
+</html>
